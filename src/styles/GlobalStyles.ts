@@ -22,7 +22,7 @@ export default createGlobalStyle`
     --quinary: #393d42;
     --senary: #828386;
     
-    --white: #f5f5f5;
+    --white: #f3f3f3;
     --gray: #8a8c90;
     --chat-input: rgb(64,68,75);
     --symbol: #74777a;

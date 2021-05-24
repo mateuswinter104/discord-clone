@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Hashtag } from 'styled-icons/heroicons-outline';
 import { PersonAdd, Settings } from 'styled-icons/material';
 
+
 export const HashtagIcon = styled(Hashtag)`
   width: 20px;
   height: 20px;
@@ -9,7 +10,7 @@ export const HashtagIcon = styled(Hashtag)`
 `;
 
 export const InviteIcon = styled(PersonAdd)`
-
+  display: none;
   width: 16px;
   height: 16px;
   color: var(--symbol);
@@ -18,12 +19,10 @@ export const InviteIcon = styled(PersonAdd)`
   &:hover {
     color: var(--white);
   }
-  &.notActive {
-    display: none;
-}
 `;
 
 export const SettingsIcon = styled(Settings)`
+  display: none;
   width: 16px;
   height: 16px;
   margin-left: 4px;
@@ -56,6 +55,13 @@ export const Container = styled.div`
   &:hover,
   &.active {
     background-color: var(--quinary);
+
+    ${InviteIcon}{
+      display: block;
+    }
+    ${SettingsIcon}{
+      display: block;
+    }
     > div span {
       color: var(--white);
     }      

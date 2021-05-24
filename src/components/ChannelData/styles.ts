@@ -16,20 +16,19 @@ export const Messages = styled.div`
   max-height: calc(100vh - 46px - 68px);
   overflow-y: scroll;
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 7.5px;
   }
   ::-webkit-scrollbar-thumb {
     background-color: var(--tertiary);
     border-radius: 4px;
   }
   ::-webkit-scrollbar-track {
-    background-color: var(--secondary);
+    background-color: var(--primary);
   }
 `;
 
 export const InputWrapper = styled.div`
   width: 100%;
-
   padding: 0 16px;
 `;
 

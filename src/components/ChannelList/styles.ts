@@ -5,7 +5,7 @@ export const Container = styled.div`
   grid-area: CL;
   display: flex;
   flex-direction: column;
-  padding: 24px 9.5px 0 16px;
+  padding: 24px 9.5px 0 9.5px;
   background-color: var(--secondary);
 `;
 
