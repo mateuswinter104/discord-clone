@@ -66,4 +66,9 @@ export const InputIcon = styled(AddCircle)`
     color: var(--white);
     opacity: .9;
   }
+
+  @media (max-width: 799px) {
+    width: 30px;
+    height: 30px;
+  }
 `;
