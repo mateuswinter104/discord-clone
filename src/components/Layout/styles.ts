@@ -11,7 +11,7 @@ import styled from 'styled-components';
 
   export const Grid = styled.div`
 
-  @media (min-width: 800px){
+  @media (min-width: 850px){
     display: grid;
     grid-template-columns: 71px 240px auto 230px;
     grid-template-rows: 46px auto 52px;
@@ -22,7 +22,7 @@ import styled from 'styled-components';
     height: 100vh;
   }
 
-  @media (max-width: 799px) {
+  @media (max-width: 850px) {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 43px auto 52px;

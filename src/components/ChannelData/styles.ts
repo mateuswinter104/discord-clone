@@ -27,7 +27,7 @@ export const Messages = styled.div`
   }
 
 
-  @media (max-width: 799px) {
+  @media (max-width: 850px) {
     max-height: calc(100vh - 66px - 40px);
   }
   
@@ -38,7 +38,7 @@ export const InputWrapper = styled.div`
   width: 100%;
   padding: 0 16px;
 
-  @media (max-width: 799px) {
+  @media (max-width: 850px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +70,7 @@ export const Input = styled.input`
     transition: 180ms ease-in-out;
   }
 
-  @media (max-width: 799px) {
+  @media (max-width: 850px) {
     
 
     ~ svg {
@@ -92,7 +92,7 @@ export const InputIcon = styled(AddCircle)`
     opacity: .9;
   }
 
-  @media (max-width: 799px) {
+  @media (max-width: 850px) {
     width: 30px;
     height: 30px;
     
