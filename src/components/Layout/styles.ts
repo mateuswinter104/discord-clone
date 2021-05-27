@@ -24,13 +24,15 @@ import styled from 'styled-components';
 
   @media (max-width: 799px) {
     display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 46px auto 52px;
+    grid-template-columns: 100%;
+    grid-template-rows: 43px auto 52px;
     grid-template-areas:
       'CI'
       'CD'
       'CD';
     height: 100vh;
+
+    overflow: hidden;
   }
 `;
 

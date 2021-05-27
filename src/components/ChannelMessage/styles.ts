@@ -23,14 +23,17 @@ export const Avatar = styled.div`
   border-radius: 50%;
   &.bot {
     background-color: var(--mention-detail);
+    flex-shrink: 0;
   }
 `;
 
 export const AvatarImg = styled.div`
 
+
   &.notMe {
     > img {
       display: none;
+  
       } 
   }
   
@@ -41,6 +44,7 @@ export const AvatarImg = styled.div`
       height: 40px;
       object-fit: cover;
       border-radius: 50%;
+      
     }
   }
 `;
@@ -51,6 +55,7 @@ export const Message = styled.div`
   flex-direction: column;
   justify-content: space-between;
   margin-left: 17px;
+  
 `;
 
 export const Header = styled.div`
