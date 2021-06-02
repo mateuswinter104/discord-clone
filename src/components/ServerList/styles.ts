@@ -12,6 +12,12 @@ export const Container = styled.div`
   ::-webkit-scrollbar {
     display: none;
   }
+
+  @media (max-width: 850px) {
+   
+    width: 70px;
+    height: 100vh;
+  }
 `;
 
 export const Separator = styled.div`

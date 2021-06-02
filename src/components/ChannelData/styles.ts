@@ -37,6 +37,7 @@ export const Messages = styled.div`
 export const InputWrapper = styled.div`
   width: 100%;
   padding: 0 16px;
+  
 
   @media (max-width: 850px) {
     display: flex;
@@ -62,6 +63,7 @@ export const Input = styled.input`
     color: var(--gray);
     font-size: 15px;
     opacity: .7;
+    
   }
   ~ svg {
     position: relative;
@@ -74,8 +76,8 @@ export const Input = styled.input`
     
 
     ~ svg {
-      left: 25px;
-      position: relative;
+      position: absolute;
+      top: 91.6%;   
     }
   }
 `;
@@ -95,6 +97,9 @@ export const InputIcon = styled(AddCircle)`
   @media (max-width: 850px) {
     width: 30px;
     height: 30px;
+
+    
+    margin-left: 20px;
     
   }
 `;
