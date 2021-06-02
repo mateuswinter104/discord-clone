@@ -30,8 +30,6 @@ export const Messages = styled.div`
   @media (max-width: 850px) {
     max-height: calc(100vh - 66px - 40px);
   }
-  
-
 `;
 
 export const InputWrapper = styled.div`
@@ -65,19 +63,22 @@ export const Input = styled.input`
     opacity: .7;
     
   }
-  ~ svg {
+
+  @media (min-width: 850px) {
+    ~ svg {
     position: relative;
     top: -50%;
     left: 14px;
     transition: 180ms ease-in-out;
+    }
   }
+  
 
   @media (max-width: 850px) {
-    
-
     ~ svg {
       position: absolute;
-      top: 91.6%;   
+      left: 14px;
+      transition: 180ms ease-in-out;
     }
   }
 `;
